@@ -123,12 +123,17 @@ body {
 
 /* ABOUT */
 
+#about {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
 #about-container {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 75px;
-    height: 100vh;
 }
 
 #about-picture {
@@ -157,9 +162,22 @@ body {
         margin-top: 50px;
     }
 
-    .about-container {
+    #about {
+        height: 100%;
+        margin-top: 9vh;
+    }
+
+    #about-container {
         flex-direction: column-reverse;
         justify-content: space-between;
-        margin: 50px 50px 0;
     }
+
+    #about-picture {
+        margin-top: 100px;
+    }
+    
+    #about-text-container {
+        padding-top: 50px;
+    }
+
 }
